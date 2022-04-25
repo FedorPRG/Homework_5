@@ -28,7 +28,7 @@ int Count(int[] mass)
 }
 
 Console.Write("Введите размер массива: ");
-int length = int.Parse(Console.ReadLine());
+int length = int.Parse(Console.ReadLine()!);
 int[] mass = new int[length];
 FillArray(mass);
 Print(mass);
